@@ -1,4 +1,4 @@
-- 👋 Hello I'm @Ahtwelay.My real name is Yan Naing Htwe
+- 👋 Hello I'm @Ahtwelay.My real name is Yan Naing Htwe.
 - 👀 I’m interested in Programming
 - 🌱 I’m currently learning flutter ,kotlin,java,php
 - 💞️ I’m looking to collaborate on the internet
