@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="550.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.homeController">
+   <children>
+      <MenuBar nodeOrientation="LEFT_TO_RIGHT" prefHeight="35.0" prefWidth="550.0" style="-fx-background-color: #3bb9ff;">
+        <menus>
+          <Menu fx:id="MenuGetmoreapps" mnemonicParsing="false" onAction="#MenuGetmoreappsOnAction" text="Get more Apps">
+            <items>
+              <MenuItem fx:id="MitemMetroSA" mnemonicParsing="false" onAction="#MitemMetroSAOnAction" text="Metro Student Association" />
+            </items>
+          </Menu>
+          <Menu fx:id="MenuSettings" mnemonicParsing="false" onAction="#MenuSettingsOnAction" text="Settings">
+            <items>
+                  <MenuItem fx:id="MitemAddKanji" mnemonicParsing="false" onAction="#MitemAddKanjiOnAction" text="Add kanji Questions " />
+            	
+                  <Menu fx:id="MenuDevelopby" mnemonicParsing="false" onAction="#MenuDevelopbyOnAction" text="Develop By">
+                  		  <MenuItem fx:id="Mitemyan" mnemonicParsing="false" onAction="#MitemyanOnAction" style="-fx-text-fill:blue;" text="Yan Naing Htwe" />
+		                  <MenuItem fx:id="Mitemsithu" mnemonicParsing="false" onAction="#MitemsithuOnAction" style="-fx-text-fill:blue;" text="Si Thu Bo Sann" />
+		                  <MenuItem fx:id="Mitemthar" mnemonicParsing="false" onAction="#MitemtharOnAction" style="-fx-text-fill:blue;" text="Thar Htet Nyan" />
+		                  <MenuItem fx:id="Mitemset" mnemonicParsing="false" onAction="#MitemsetOnAction" style="-fx-text-fill:blue;" text="Sett Thiha Naing" />
+		                  <MenuItem fx:id="Mitemmay" mnemonicParsing="false" onAction="#MitemmayOnAction" style="-fx-text-fill:blue;" text="May Pyae Sone" />
+                  </Menu>
+                  <MenuItem fx:id="Mitemwrong" mnemonicParsing="false" onAction="#MitemWrongOnAction" text="Wrong Questions " />
+                  
+                  <MenuItem fx:id="MitemHistory" mnemonicParsing="false" onAction="#MitemHistory" text="History" />
+                
+                  <MenuItem fx:id="MitemExit" mnemonicParsing="false" onAction="#MitemExitOnAction" text="Exit" />
+            </items>
+          </Menu>
+          <Menu fx:id="MenuHelp" mnemonicParsing="false" onAction="#MenuHelpOnAction" text="Help">
+            <items>
+              <MenuItem fx:id="MitemShortcut" mnemonicParsing="false" onAction="#MitemShortcutOnAction" text="Shortcut key" />
+                  <MenuItem fx:id="MitemHowtouse" mnemonicParsing="false" onAction="#MitemHowtouseOnAction" text="How to use" />
+                  <MenuItem fx:id="Mitemerror" mnemonicParsing="false" onAction="#MitemerrorOnAction" text="Troubleshoot " />
+                  <MenuItem fx:id="Mitemabout" mnemonicParsing="false" onAction="#MitemAboutOnAction" text="About " />
+            </items>
+          </Menu>
+          
+        </menus>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="5.0" right="5.0" top="5.0" />
+         </padding>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </MenuBar>
+      <VBox prefHeight="396.0" prefWidth="550.0" style="-fx-background-color: black;">
+         <children>
+            <Button fx:id="btnN5" mnemonicParsing="false" onAction="#btnN5OnAction" prefHeight="45.0" prefWidth="100.0" style="-fx-border-color: #3bb9ff; -fx-border-width: 3; -fx-border-radius: 20; -fx-background-color: transparent;" text="N 5" textFill="WHITE">
+               <font>
+                  <Font name="Book Antiqua Bold" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="40.0" left="225.0" right="225.0" top="50.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnN4" mnemonicParsing="false" onAction="#btnN4OnAction" prefHeight="45.0" prefWidth="100.0" style="-fx-border-color: #3bb9ff; -fx-border-width: 3; -fx-border-radius: 20; -fx-background-color: transparent;" text="N 4" textFill="WHITE">
+               <font>
+                  <Font name="Book Antiqua Bold" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="40.0" left="225.0" right="225.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnN3" mnemonicParsing="false" onAction="#btnN3OnAction" prefHeight="45.0" prefWidth="100.0" style="-fx-border-color: #3bb9ff; -fx-border-radius: 20; -fx-border-width: 3; -fx-background-color: transparent;" text="N 3" textFill="WHITE">
+               <font>
+                  <Font name="Book Antiqua Bold" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="40.0" left="225.0" right="225.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnN2" mnemonicParsing="false" onAction="#btnN2OnAction" prefHeight="45.0" prefWidth="100.0" style="-fx-border-color: #3bb9ff; -fx-border-width: 3; -fx-border-radius: 20; -fx-background-color: transparent;" text="N 2" textFill="#fffdfd">
+               <font>
+                  <Font name="Book Antiqua Bold" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="40.0" left="225.0" right="225.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#btnN1OnAction" prefHeight="45.0" prefWidth="100.0" style="-fx-border-color: #3bb9ff; -fx-border-width: 3; -fx-border-radius: 20; -fx-background-color: transparent;" text="N 1" textFill="#fffdfd">
+               <font>
+                  <Font name="Book Antiqua Bold" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="40.0" left="225.0" right="225.0" />
+               </VBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</VBox>
